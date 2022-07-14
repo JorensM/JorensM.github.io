@@ -32,3 +32,28 @@ h1, h2, h3{
 .link:active{
     color: black;
 }
+
+
+@media screen and (min-width: 500px){
+    p{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .link{
+        width: 50%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    ul{
+        width: 50%;
+        margin: auto;
+    }
+
+    h4{
+        width: 50%;
+        margin: 15px auto;
+    }
+}
