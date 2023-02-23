@@ -8,6 +8,11 @@ h1, h2, h3{
     text-align: center;
 }
 
+.caption{
+    font-size: 14px;
+    font-weight: 300;
+}
+
 .font-light{
     font-weight: 300;
 }
