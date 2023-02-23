@@ -12,6 +12,25 @@
 
             gtag('config', 'G-97G01186E7');
         </script>
+        <script>
+
+            const skills_list = [
+            "PHP",
+            "HTML",
+            "CSS",
+            "Angular",
+            "Java",
+            "React Native",
+            "Android SDK",
+            "Golang"
+            ];
+            const skills_list_element = document.getElementById("skills-list");
+
+            skills_list.forEach((skill) => {
+                skills_list_element.insertAdjacentHTML("beforeend", `<li>${skill}</li>`)
+            })
+
+        </script>
     </head>
     <body>
         <h1 class="margin-bot-none">JORENS MERENJANU</h1>
@@ -26,56 +45,9 @@
         </div>
         <h2>My skills</h2>
         <p>I have experience with <b>web design</b>, <b>web development</b>, <b>desktop app development</b>, <b>mobile app development</b>
-            And I have experience with many different tools, frameworks, languages, namely:</p>
-        <ul>
-            <li>
-                React
-            </li>
-            <li>
-                Angular
-            </li>
-            <li>
-                JavaScript
-            </li>
-            <li>
-                HTML
-            </li>
-            <li>
-                CSS
-            </li>
-            <li>
-                MongoDB
-            </li>
-            <li>
-                MySQL
-            </li>
-            <li>
-                PostgreSQL
-            </li>
-            <li>
-                React Native
-            </li>
-            <li>
-                Flutter
-            </li>
-            <li>
-                Ionic
-            </li>
-            <li>
-                Android API
-            </li>
-            <li>
-                Figma
-            </li>
-            <li>
-                Golang
-            </li>
-            <li>
-                C++
-            </li>
-            <li>
-                Java
-            </li>
+            And I have experience with many different tools, frameworks, languages:</p>
+        <ul id="skills-list">
+
         </ul>
         <h2>What I offer</h2>
         <ul>
