@@ -2,6 +2,9 @@
 
 body, html{
     font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, h2, h3{
@@ -9,8 +12,24 @@ h1, h2, h3{
 }
 
 .caption{
+    margin-top: 0px;
+    margin-bottom: 40px;
     font-size: 14px;
     font-weight: 300;
+    text-align: center;
+}
+
+p{
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.content{
+    width: 50%
 }
 
 .font-light{
@@ -40,13 +59,13 @@ h1, h2, h3{
 
 
 @media screen and (min-width: 500px){
-    p{
+    /* p{
         width: 50%;
         margin: auto;
         margin-bottom: 15px;
-    }
+    } */
 
-    .link{
+    /* .link{
         width: 50%;
         margin: auto;
         margin-top: 15px;
@@ -60,5 +79,38 @@ h1, h2, h3{
     h4{
         width: 50%;
         margin: 15px auto;
+    } */
+}
+
+@media screen and (max-width: 620px) {
+    .content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .caption{
+        font-size: 12px;
     }
 }
