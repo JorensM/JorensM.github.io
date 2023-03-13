@@ -57,6 +57,16 @@ img{
     color: black;
 }
 
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-mobile{
+    width: 240px;
+}
+
 
 @media screen and (min-width: 500px){
     /* p{
@@ -89,6 +99,10 @@ img{
 }
 
 @media screen and (max-width: 400px) {
+
+    .img-mobile{
+        width: 100%;
+    }
 
     h1{
         font-size: 24px;
