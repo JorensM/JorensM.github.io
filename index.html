@@ -14,22 +14,7 @@
         </script>
         <script>
 
-            const skills_list = [
-            "PHP",
-            "HTML",
-            "CSS",
-            "Angular",
-            "Java",
-            "React Native",
-            "Android SDK",
-            "Golang"
-            ];
-            const skills_list_element = document.getElementById("skills-list");
-
-            skills_list.forEach((skill) => {
-                skills_list_element.insertAdjacentHTML("beforeend", `<li>${skill}</li>`)
-            })
-
+            
         </script>
     </head>
     <body>
@@ -82,6 +67,23 @@
             <a href="thirdtest.css">thirdtest.css</a>
         </div>
         <script>
+
+            const skills_list = [
+                "PHP",
+                "HTML",
+                "CSS",
+                "Angular",
+                "Java",
+                "React Native",
+                "Android SDK",
+                "Golang"
+            ];
+            const skills_list_element = document.getElementById("skills-list");
+
+            skills_list.forEach((skill) => {
+                skills_list_element.insertAdjacentHTML("beforeend", `<li>${skill}</li>`)
+            })
+
 
             let links = document.getElementsByTagName("a");
 
