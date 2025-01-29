@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel='stylesheet' href='style.css' />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-97G01186E7"></script>
@@ -12,106 +12,56 @@
 
             gtag('config', 'G-97G01186E7');
         </script>
-        <script>
-
-            
-        </script>
     </head>
     <body>
-        <div class="content">
-            <h1 class="margin-bot-none">JORENS MERENJANU</h1>
-            <h3 class="font-light margin-top-none">Full stack Developer & Designer</h3>
-            <p>
-                Hi! I'm Jorens. I'm a full stack developer & designer
-                from Latvia who has a deep passion for coding and design.
-                In my spare time I like to draw, cook, code and design websites.
-
-                But I'm more than just a developer - I have an entrepreneural mindset.
-                I try to contribute to the project and business as a whole in any way I can,
-                because I believe that the success of my clients leads to my own success.
-
-                I will go out of my way to overdeliver, take initiative where appropriate,
-                offer suggestions and share my perspective.
-            </p>
-            <ul>
-                <li><a href="https://github.com/JorensM">GitHub</a></li>
-                <li><a href="https://www.upwork.com/freelancers/~01e315dadc75c62d93">Upwork</a></li>
-                <li><a href="https://www.linkedin.com/in/jorens-merenjanu-70195b217/">LinkedIn</a></li>
-            </ul>
-            <!-- <div class="link" onclick="scrollToWork()">
-                See my work
-            </div> -->
-            <h2>My skills</h2>
-            <p>I have experience with <b>web design</b>, <b>web development</b>, <b>desktop app development</b>, <b>mobile app development</b>
-                And I have experience with many different tools, frameworks, languages, most notably:</p>
-            <ul id="skills-list">
-
-            </ul>
-            <h2>What I offer</h2>
-            <ul>
-                <li>Website design & development (backend & frontend)</li>
-                <li>Dekstop app design & development</li>
-                <li>Mobile app design & development</li>
-                <li>4 years of professional web development experience</li>
-                <li>Frequent and honest communication</li>
-                <li>Clean, scalable, maintainable and well-documented code</li>
-                <li>Delivering on time</li>
-            </ul>
-            <h2 id="my-work">My work</h2>
-            <p>Here you can see samples of work that I've done</p>
-            <h4>
-                Development:
-            </h4>
-            <ul>
-                <li><a href="my-work/football-ticket-shop.html">Football ticket shop</a></li>
-                <li><a href="https://www.bookibo.com/">Bookibo</a> (Helped develop some pages and UI elements of the web app)</li>
-                <li><a href="https://www.techandbusinesstips.com/">techandbusinesstips.com</a> - My personal blog</li>
-            </ul>
-        </div>
-        
-        
-        <div style="display: none">
-            Google Analytics events test.
-            <a href="test.css">test.css</a>
-            <a href="othertest.css">othertest.css</a>
-            <a href="thirdtest.css">thirdtest.css</a>
-        </div>
-        <script>
-
-            const skills_list = [
-                "PHP",
-                "JavaScript/TypeScript",
-                "HTML",
-                "CSS",
-                "React",
-                "NodeJS",
-                "Next.js",
-                "Java",
-                "React Native",
-                "WordPress",
-                "Godot"
-            ];
-            const skills_list_element = document.getElementById("skills-list");
-
-            skills_list.forEach((skill) => {
-                skills_list_element.insertAdjacentHTML("beforeend", `<li>${skill}</li>`)
-            })
-
-
-            let links = document.getElementsByTagName("a");
-
-            for(let link of links){
-                link.addEventListener("click", function(){
-                    gtag("event", "link clicked", {
-                        "event_category": "general",
-                        "event_label": link.getAttribute("href")
-                    })
-                })
-            }
-
-            function scrollToWork(){
-                document.getElementById("my-work").scrollIntoView();
-            }
-        </script>
+        <header>
+            <h1>Jorens Merenjanu</h1>
+            <p role='doc-subtitle'>Full Stack Web Developer</p>
+        </header>
+        <main>
+            <section>
+                <p>
+                    Hi, my name is Jorens. I'm a full stack web developer with 4 years
+                    of professional experience.
+                </p>
+                <ul>
+                    <li><a href="mailto:jorensmerenjanu@gmail.com">Email</a></li>
+                    <li><a href="https://jorens.short.gy/cv">CV</a></li>
+                    <li><a href="https://github.com/JorensM">GitHub</a></li>
+                    <li><a href="https://www.upwork.com/freelancers/~01e315dadc75c62d93">Upwork</a></li>
+                    <li><a href="https://www.linkedin.com/in/jorens-merenjanu-70195b217/">LinkedIn</a></li>
+                </ul>
+            </section>
+            <section>
+                <!-- <a href='./my-work/index.html'>All Projects</a> -->
+                <h2>Featured Work</h2>
+                
+                <ul class='featured-work'>
+                    <li>
+                        <article>
+                            <a href='my-work/bookibo.html'>
+                                <div class='overlay'>
+                                    <h3>Bookibo.com</h3>
+                                </div>
+                                <img src='./images/bookibo/image2.png'>
+                            </a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <a href='./my-work/football-ticket-shop.html'>
+                                <div class='overlay'>
+                                    <h3>Matchticketshop</h3>
+                                </div>
+                                <img src='./images/football-ticket-shop/desktop.png'>
+                                
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body, html{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    /* text-align: center; */
+}
+
+.caption{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+p{
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.content{
+    width: 50%
+}
+
+.font-light{
+    font-weight: 300;
+}
+
+.margin-top-small{
+    margin-top: 5px;
+}
+
+.margin-top-none{
+    margin-top: 0px;
+}
+
+.margin-bot-none{
+    margin-bottom: 0px;
+}
+
+.link{
+    text-decoration: underline;
+    color: rgb(94, 94, 94);
+}
+
+.link:active{
+    color: black;
+}
+
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-mobile{
+    width: 240px;
+}
+
+
+@media screen and (min-width: 500px){
+    /* p{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 15px;
+    } */
+
+    /* .link{
+        width: 50%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    ul{
+        width: 50%;
+        margin: auto;
+    }
+
+    h4{
+        width: 50%;
+        margin: 15px auto;
+    } */
+}
+
+@media screen and (max-width: 620px) {
+    .content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .img-mobile{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    h2{
+        font-size: 1.1rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .caption{
+        font-size: 0.9rem;
+    }
+}

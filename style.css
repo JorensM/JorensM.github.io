@@ -2,129 +2,76 @@
 
 body, html{
     font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 8px;
+}
+
+header h1, header p {
+    margin: 0px;
+}
+
+header p {
+    color: gray;
+}
+
+.project {
+    margin-top: 16px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.project .img-mobile {
+    max-width: 280px;
+}
+
+article img {
+    width: 100%;
+}
+
+.featured-work article h3 {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.featured-work .overlay {
+    background-color: rgba(0.4, 0.4, 0.4, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.featured-work .overlay:hover {
+    opacity: 0;
+}
+
+.featured-work {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-h1, h2, h3{
-    text-align: center;
-}
-
-.caption{
-    margin-top: 0px;
-    margin-bottom: 40px;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: center;
-}
-
-p{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
     padding: 0px;
 }
 
-img{
-    width: 100%;
-    border: 1px solid black;
+ul {
+    padding-left: 32px;
 }
 
-.content{
-    width: 50%
+.featured-work a {
+    color: white;
 }
 
-.font-light{
-    font-weight: 300;
-}
-
-.margin-top-small{
-    margin-top: 5px;
-}
-
-.margin-top-none{
-    margin-top: 0px;
-}
-
-.margin-bot-none{
-    margin-bottom: 0px;
-}
-
-.link{
-    text-decoration: underline;
-    color: rgb(94, 94, 94);
-}
-
-.link:active{
-    color: black;
-}
-
-.flex-col-center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img-mobile{
-    width: 240px;
-}
-
-
-@media screen and (min-width: 500px){
-    /* p{
-        width: 50%;
-        margin: auto;
-        margin-bottom: 15px;
-    } */
-
-    /* .link{
-        width: 50%;
-        margin: auto;
-        margin-top: 15px;
-    }
-
-    ul{
-        width: 50%;
-        margin: auto;
-    }
-
-    h4{
-        width: 50%;
-        margin: 15px auto;
-    } */
-}
-
-@media screen and (max-width: 620px) {
-    .content{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-
-    .img-mobile{
-        width: 100%;
-    }
-
-    h1{
-        font-size: 24px;
-    }
-
-    h2{
-        font-size: 20px;
-    }
-
-    h3{
-        font-size: 14px;
-    }
-
-    li{
-        font-size: 14px;
-    }
-
-    p{
-        font-size: 14px;
-    }
-
-    .caption{
-        font-size: 12px;
-    }
+.featured-work li {
+    max-width: 512px;
+    flex-grow: 1;
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
 }
