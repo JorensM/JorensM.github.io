@@ -4,6 +4,17 @@ body, html{
     font-family: "Open Sans", sans-serif;
     margin: 0px;
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    max-width: 700px;
+}
+
+header {
+    width: 100%;
 }
 
 header h1, header p {
@@ -102,7 +113,7 @@ ul {
 }
 
 .featured-work li {
-    max-width: 512px;
+    max-width: 700px;
     flex-grow: 1;
     list-style-type: none;
     padding: 0px;
