@@ -31,6 +31,39 @@ article img {
     width: 100%;
 }
 
+ul.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0px;
+}
+
+ul.links li {
+    list-style-type: none;
+    border: 1px solid lightgray;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+ul.links a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-block: 0.4rem;
+    padding-inline: 2rem;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+}
+
+ul.links li:hover, ul.links li:focus-within {
+    background-color: gray;
+}
+
+ul.links li:hover a, ul.links li:focus-within a {
+    color: white;
+}
+
 .featured-work article h3 {
     margin: 0px;
     position: absolute;
