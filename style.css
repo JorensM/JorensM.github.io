@@ -7,6 +7,7 @@ body, html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: rgb(255, 255, 255); */
 }
 
 main {
@@ -45,16 +46,15 @@ article img {
 ul.links {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    width: 100%;
+    gap: 8px;
     padding: 0px;
 }
 
 ul.links li {
     list-style-type: none;
-    border: 1px solid lightgray;
-    width: fit-content;
+    /* border: 1px solid rgb(230, 230, 230); */
     border-radius: 8px;
-    background-color: lightgray;
 }
 
 ul.links a {
@@ -63,16 +63,21 @@ ul.links a {
     height: 100%;
     padding-block: 0.4rem;
     padding-inline: 2rem;
-    color: rgb(40, 40, 40);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(56, 56, 56);
     text-decoration: none;
+    transition: 0.1s ease-in-out;
+    box-shadow: 1px 1px 2px #696969;
 }
 
-ul.links li:hover, ul.links li:focus-within {
-    background-color: gray;
-}
-
-ul.links li:hover a, ul.links li:focus-within a {
-    color: white;
+ul.links li:hover a {
+    transform: scale(1.02);
+    transform-origin: center;
+    color: rgb(20, 20, 20);
+    background-color: #dcdcdc;
+    box-shadow: 1px 2px 4px #727272;
 }
 
 .featured-work article h3 {
@@ -82,14 +87,15 @@ ul.links li:hover a, ul.links li:focus-within a {
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
+    color: rgb(32, 32, 32);
 }
 
 .featured-work .overlay {
-    background-color: rgba(0.4, 0.4, 0.4, 0.4);
+    background-color: rgba(0, 0, 0, 0.104);
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .featured-work .overlay:hover {
@@ -118,4 +124,14 @@ ul {
     list-style-type: none;
     padding: 0px;
     position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    /* outline: 1px solid lightgray; */
+    box-shadow: 2px 4px 4px gray;
+}
+
+@media screen and (min-width: 555px) {
+    .links {
+        justify-content: center;
+    }
 }
