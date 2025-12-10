@@ -130,8 +130,21 @@ ul {
     box-shadow: 2px 4px 4px gray;
 }
 
+
+
+/* ul.skills > ul {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+} */
+
 @media screen and (min-width: 555px) {
     .links {
         justify-content: center;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 }
