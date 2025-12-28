@@ -145,10 +145,17 @@ section p {
 
 section .cta {
     display: flex;
-    gap: 8px;
     align-items: center;
     margin-block: 32px;
     height: fit-content;
+    width: fit-content;
+    background-color: rgb(228, 228, 228);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(172, 172, 172);
+}
+
+.cta .cta-side {
+    padding-inline: 16px;
 }
 
 .btn-primary {
@@ -159,13 +166,19 @@ section .cta {
     padding-inline: 2rem;
     border-radius: 4px;
     width: fit-content;
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(93, 93, 93);
     color: white;
     box-sizing: border-box;
 }
 
+.cta .btn-primary {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transition: 0.2s ease-out;
+}
+
 .btn-primary:hover {
-    background: rgb(99, 99, 99);
+    background: rgb(60, 60, 60);
 }
 
 
