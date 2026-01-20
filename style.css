@@ -171,7 +171,7 @@ section .cta {
     box-sizing: border-box;
 }
 
-.cta .btn-primary {
+.cta:has(.cta-side) .btn-primary {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     transition: 0.2s ease-out;
