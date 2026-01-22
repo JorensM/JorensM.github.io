@@ -1,6 +1,52 @@
 {
     "content": {
         "intro1": "Sveiki, mani sauc Jorens, esmu full stack mājaslapu izstrādātājs ar 4 gadu profesionālu pieredzi.",
-        "intro2": "Esmu darbinieks ar uzņēmēja domāšanu, un mans darbs man ir vairāk nekā rakstīt kodu. Es cenšos palīdzēt un atbalstīt savus klientus kā vien varu; Kad piedienīgi, es ņemšu iniciatīvu, piedāvāšu padomus un alternatīvus risinājumus"
+        "intro2": "Esmu darbinieks ar uzņēmēja domāšanu, un mans darbs man ir vairāk nekā rakstīt kodu. Es cenšos palīdzēt un atbalstīt savus klientus kā vien varu; Kad piedienīgi, es ņemšu iniciatīvu, piedāvāšu padomus un alternatīvus risinājumus",
+        "intro3": "Lai gan mana primārā nozare ir web izstrāde, man piemīt iemaņas kuras iet tālāk par to; mārketings, UX, product design.",
+        "intro4": "Ar mani ir viegli strādāt - esmu komunikabls, godīgs, atklāts un atbildīgs. Es vienmēr turu savus klientus up-to-date par darba norisēm. Ja ir kādas neskaidrības vai pārpratumi, vienmēr tos ar klientu izrunāju.",
+        "skills": {
+            "intro": "Pašlaik, es pārsvarā strādāju ar React un Node vai Next.js, lai gan bez tā man ir pieredze arī ar"
+        },
+        "specializations": {
+            "intro": "Man ir vairākas specialitātes, bet mans darbs nav ierobežots tikai ar tām un vienmēr esmu gatavs apgūt jaunas.",
+            "systems": {
+                "name": "Sistēmas un arhitektūras dizains",
+                "description": "Pārliecināties par to, lai pamats uz kura tiek veidots projekts ir paplašināms, optimizēts un izdevīgs, un lai dažādi sistēmas moduļi mijedarbojas bez berzes."
+            },
+            "infrastructure": {
+                "name": "Infrastruktūra",
+                "description": "Pārliecināties par to, lai rīki un platformas kuras tiek lietotas projektā ir pielāgotas konkrētajam gadījumam un labi strādā kopā"
+            },
+            "apidesign": {
+                "name": "API dizains un izstrāde",
+                "description": "Projektēt un izstrādāt loģiski strukturētus API"
+            },
+            "apiintegration": {
+                "name": "API integrācija",
+                "description": "Integrēt dažādus trešās partijas (vai mājas) API ar projekta frontendu un backendu"
+            },
+            "dynamicui": {
+                "name": "Dinamiskas, biežas interakcijas interfeisi/aplikācijas",
+                "description": "\"Dashboard\" tipa aplikācijas vai SaaS, ar dinamisku/biežu datu saņemšanu/sūtīšanu, kur lietotāja interakcija ir bieža un kurai jābūt ātrai, intuitīvai un gludai."
+            },
+            "utilities": {
+                "name": "Skripti/palīgrīki/automatizācija",
+                "description": "Nelieli skripti, aplikācijas vai lapas, veidotas lai atvieglotu konkrētu atkārtotu problēmu darba gaitā."
+            }
+        },
+        "principles": {
+            "intro": "Kā izstrādātājam, man ir vairāki principi kuriem es sekoju kad rakstu kodu un projektēju sistēmas/moduļus:",
+            "teamcode": {
+                "name": "Komandas kods",
+                "description": "Es rakstu kodu kurš ir lasāms, labi dokumentēts un loğisks attiecībā uz sadarbību ar citiem izsrādātājiem (pat tad, kad strādāju viens pats), gan dotajam mirklim gan nākotnei."
+            },
+            "independentcode": {
+                "name": "Neatkarīgs, vairākkārt lietojams kods",
+                "description": "Es dodu priekšroku abstraktam kodam kurš nav piesaistīts konkrētam freimworkam, platformai, library vai projektam, kas padara migrāciju uz citu vienkāršu un ātru, bez vajadzības daudz, vai vispār kautko, pārrakstīt"
+            },
+            "extensiblecode": {
+                "name": ""
+            }
+        }
     }
 }
