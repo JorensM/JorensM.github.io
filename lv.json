@@ -1,4 +1,22 @@
 {
+    "lvClass": "selected",
+    "enClass": "",
+    "headings": {
+        "title": "Full stack Izstrādātājs",
+        "aboutme": "Par mani",
+        "skills": "Manas prasmes",
+        "languages": "Valodas",
+        "specializations": "Specialitātes",
+        "principles": "Principi",
+        "process": "Darba gaita",
+        "recentwork": "Pēdējie darbi"
+    },
+    "labels": {
+        "email": "E-pasts",
+        "personalprojects": "Personīgie projekti",
+        "mywork": "Mani darbi",
+        "bookcall": "Rezervēt zvanu"
+    },
     "content": {
         "intro1": "Sveiki, mani sauc Jorens, esmu full stack mājaslapu izstrādātājs ar 4 gadu profesionālu pieredzi.",
         "intro2": "Esmu darbinieks ar uzņēmēja domāšanu, un mans darbs man ir vairāk nekā rakstīt kodu. Es cenšos palīdzēt un atbalstīt savus klientus kā vien varu; Kad piedienīgi, es ņemšu iniciatīvu, piedāvāšu padomus un alternatīvus risinājumus",
@@ -38,14 +56,46 @@
             "intro": "Kā izstrādātājam, man ir vairāki principi kuriem es sekoju kad rakstu kodu un projektēju sistēmas/moduļus:",
             "teamcode": {
                 "name": "Komandas kods",
-                "description": "Es rakstu kodu kurš ir lasāms, labi dokumentēts un loğisks attiecībā uz sadarbību ar citiem izsrādātājiem (pat tad, kad strādāju viens pats), gan dotajam mirklim gan nākotnei."
+                "description": "Es rakstu kodu kas ir lasāms, labi dokumentēts un loğisks attiecībā uz sadarbību ar citiem izsrādātājiem (pat tad, kad strādāju viens pats), gan dotajam mirklim gan nākotnei."
             },
             "independentcode": {
                 "name": "Neatkarīgs, vairākkārt lietojams kods",
-                "description": "Es dodu priekšroku abstraktam kodam kurš nav piesaistīts konkrētam freimworkam, platformai, library vai projektam, kas padara migrāciju uz citu vienkāršu un ātru, bez vajadzības daudz, vai vispār kautko, pārrakstīt"
+                "description": "Es dodu priekšroku abstraktam kodam kas nav piesaistīts konkrētam freimworkam, platformai, library vai projektam, kas padara migrāciju uz citu vienkāršu un ātru, bez vajadzības daudz, vai vispār kautko, pārrakstīt"
             },
             "extensiblecode": {
-                "name": ""
+                "name": "Paplašināms kods",
+                "description": "Es rakstu kodu kuru viegli paplašināt, fokusējoties uz to lai padarītu jaunu koda rindu pievienošanu vienkāršu un lai padarītu pašreizējo koda rindu pārrakstīšanu nevajadzīgu."
+            },
+            "fastcode": {
+                "name": "Ātrs kods",
+                "description": "Es rakstu kodu kas ir optimizēts priekš time-to-first-(byte, interaction, request, response, load), citiem vārdiem sakot - samazinu gaidīšanas laiku attiecībā uz lapas/aplikācijas lādēšanu vai konkrētas funkcijas izpildi."
+            },
+            "scalablecode": {
+                "name": "Mērogojams kods",
+                "description": "Es rakstu kodu kas ir sākotnēji un savos pamatos projektēts lai efektīvi un bez berzes strādātu lielās sarežģītās sistēmās, dodot priekšroku modulārai pieejai."
+            }
+        },
+        "process": {
+            "intro": "Kad es strādāju pie projektiem un/vai ar klientiem, mana darba gaita līdzinās Agile pieejai un parasti ietver elastīga cikla kurš sastāv no dotajiem soļiem",
+            "definetask": {
+                "name": "Definēt feature/uzdevumu/milestone/mērķi/projektu",
+                "description": "Klients pieprasa man izpildīt kādu uzdevumu vai projektu, kurā gadījumā es vai nu kopā ar klientu konkretizēju prasījumus ja tie nav pietiekami skaidri un/vai piedāvāju ieteikumus/alternatīvas pirms ķerties pie nākošā soļa."
+            },
+            "definedesign": {
+                "name": "Definēt abstraktu/ģeneralizētu dizainu priekš feature un rīcības plānu tā īstenošanai",
+                "description": "Šajā solī es veidoju \"rasējumu\" feature/uzdevuma pamatam un galvenajai funkcijai, definējot galvenās pazīmes, variācijas iespējas, pārliecinos ka man ir viss nepieciešamais lai to īstenotu, un definēju skaidru bildi attiecībā uz to, kā to īstenot."
+            },
+            "developmvp": {
+                "name": "Izstrādāt MVP balstoties uz abstrakto dizainu",
+                "description": "Izstrādāju MVP priekš feature, kas izceļ galvenās feature pazīmes kā arī padarīt vienkāršu šī feature kostumizāciju priekš variācijas, revīzijām vai nākotnes izmaiņām."
+            },
+            "collectfeedback": {
+                "name": "Saņemt atsauksmi no klienta",
+                "description": "Saņemu un analizēju atsauksmes un kritiku saistībā ar doto uzdevumu"
+            },
+            "iterate": {
+                "name": "Atkārtoju vai ķeros pie nākošā uzdevuma",
+                "description": "Ja klients ir apmierināts ar rezultātu, ķeros pie nākošā uzdevuma. Ja tiek pieprasītas izmaiņas, atkārtoju iepriekšējos soļus līdz vēlamais rezultāts tiek sasniegts."
             }
         }
     }

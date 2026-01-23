@@ -1,26 +1,32 @@
         <header>
-            <h1>Jorens Merenjanu</h1>
-            <p role='doc-subtitle'>Full Stack Web Developer</p>
+            <div>
+                <h1>Jorens Merenjanu</h1>
+                <p role='doc-subtitle'>{{headings.title}}</p>
+            </div>
+            <div class="lang">
+                <a href="index.html" class="{{enClass}}">EN</a>
+                <a href="index_lv.html" class="{{lvClass}}">LV</a>
+            </div>
         </header>
         <main>
             <!-- External links -->
             <nav>
                 <ul class='links'>
-                    <li><a href="mailto:jorensmerenjanu@gmail.com">Email</a></li>
+                    <li><a href="mailto:jorensmerenjanu@gmail.com">{{labels.email}}</a></li>
                     <li><a href="https://jorens.short.gy/cv">CV</a></li>
                     <li><a href="https://github.com/JorensM">GitHub</a></li>
                     <li><a href="https://www.upwork.com/freelancers/~01e315dadc75c62d93">Upwork</a></li>
                     <li><a href="https://www.linkedin.com/in/jorens-merenjanu-70195b217/">LinkedIn</a></li>
-                    <li><a href="my-work/index.html">My Work</a></li>
+                    <li><a href="my-work/index.html">{{labels.mywork}}</a></li>
                     <li>
-                        <a href="personalprojects.html">Personal Projects</a>
+                        <a href="personalprojects.html">{{labels.personalprojects}}</a>
                     </li>
                 </ul>
                 <!-- <hr style="color: gray;"/> -->
             </nav>
             <section>
                 <h2>
-                    About Me
+                    {{headings.aboutme}}
                 </h2>
                 <p>
                     {{content.intro1}}
@@ -36,14 +42,14 @@
                 </p>
                 <div class="cta">
                     <a target="_blank" class='btn-primary' href="https://calendly.com/jorensmerenjanu/30-minute-meeting">
-                        Book a consultation
+                        {{labels.bookcall}}
                     </a>
                     <span class='cta-side' style="color: rgb(58, 58, 58);">20&euro;/h</span>
                 </div>
             </section>
             <section>
                 <!-- <a href='./my-work/index.html'>All Projects</a> -->
-                <h2>Recent Work</h2>
+                <h2>{{headings.recentwork}}</h2>
                 
                 <ul class='featured-work'>
                     <li>
@@ -70,14 +76,14 @@
                 </ul>
             </section>
             <section>
-                <h2>My skills</h2>
+                <h2>{{headings.skills}}</h2>
                 <p>
                     {{content.skills.intro}}
                 </p>
                 <ul class="col-2 skills">
                     <li>
                         <h3>
-                            Languages
+                            {{headings.languages}}
                         </h3>
                         <ul>
                             <li>HTML</li>
@@ -122,7 +128,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Specializations</h2>
+                <h2>{{headings.specializations}}</h2>
                 <p>
                     {{content.specializations.intro}}
                 </p>
@@ -154,7 +160,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Principles</h2>
+                <h2>{{headings.principles}}</h2>
                 <p>
                     {{content.principles.intro}}
                 </p>
@@ -168,55 +174,44 @@
                         {{content.principles.independentcode.description}}
                     </li>
                     <li>
-                        <b>Extensible code</b> - I write code that is easy to extend, focusing
-                        on making it easy to add new lines and making it unnecessary to rewrite
-                        existing ones.
+                        <b>{{content.principles.extensiblecode.name}}</b> - 
+                        {{content.principles.extensiblecode.description}}
                     </li>
                     <li>
-                        <b>Fast code</b> - I write code that is optimized for 
-                        time-to-first-(byte, interaction, request, response, load), in other
-                        words reducing the time spent just waiting for the software to finish
-                        its task, without the expense of other features like readability or
-                        extensibility.
+                        <b>{{content.principles.fastcode.name}}</b> - 
+                        {{content.principles.fastcode.description}}
                     </li>
                     <li>
-                        <b>Scalable code</b> - I write code that is fundamentally designed
-                        to work well and without friction in large complex systems, favoring
-                        a modular approach.
+                        <b>{{content.principles.scalablecode.name}}</b> - 
+                        {{content.principles.scalablecode.description}}
                     </li>
                 </ul>
             </section>
             <section>
-                <h2>My proccess</h2>
+                <h2>{{headings.process}}</h2>
                 <p>
-                    When I work on projects and/or with clients, my workflow is Agile-like
-                    and typically consists of a flexible/open-ended cycle composed of the following steps:
+                    {{content.process.intro}}
                 </p>
                 <ol>
                     <li>
-                        <b>Define feature/task/milestone/goal/project</b> - A client might request
-                        for a task to be done by me, at which point I either clarify requirements
-                        if they are not clear enough and/or offer suggestions/alternatives before
-                        moving onto the next step
+                        <b>{{content.process.definetask.name}}</b> - 
+                        {{content.process.definetask.description}}
                     </li>
                     <li>
-                        <b>Define an abstract design for feature and plan of action towards fulfilling it</b> -
-                        At this point I "blueprint" the base/core of the feature or task, defining
-                        the core characteristics, potential room for variation, make sure that I have everything I need to get it done,
-                        and defining a clear picture of how to achieve it
+                        <b>{{content.process.definedesign.name}}</b> -
+                        {{content.process.definedesign.description}}
                     </li>
                     <li>
-                        <b>Develop an MVP of the feature based on the abstract design</b> - Develop an
-                        MVP of the feature, something that outlines the core characteristics of the feature
-                        while also making it easy to customize the feature for revision or future changes.
+                        <b>{{content.process.developmvp.name}}</b> - 
+                        {{content.process.developmvp.description}}
                     </li>
                     <li>
-                        <b>Receive feedback</b> - Collect and analyze feedback/criticism from the client
+                        <b>{{content.process.collectfeedback.name}}</b> - 
+                        {{content.process.collectfeedback.description}}
                     </li>
                     <li>
-                        <b>Iterate or move on to the next task</b> - If the client is satisfied with
-                        the outcome, move onto the next task. If changes are requested, re-iterate until
-                        expected outcome is achieved.
+                        <b>{{content.process.iterate.name}}</b> - 
+                        {{content.process.iterate.description}}
                     </li>
                 </ol>
             </section>

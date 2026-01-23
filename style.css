@@ -16,6 +16,25 @@ main {
 
 header {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang > a {
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lang > a:not(.selected):hover {
+    text-decoration: underline;
+}
+
+.lang > .selected {
+    color: black;
+    font-weight: 600;
+    cursor: default;
+    /* text-decoration: underline; */
 }
 
 header h1, header p {
