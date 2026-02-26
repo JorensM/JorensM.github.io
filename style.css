@@ -57,6 +57,11 @@ ul.links li {
     border-radius: 8px;
 }
 
+p[role="doc-subtitle"] {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
 ul.links a {
     display: block;
     width: 100%;
