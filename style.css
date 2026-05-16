@@ -195,10 +195,10 @@ section .cta {
 
 /* Contact page */
 
-/* ul.contact {
+ul.contact {
     list-style-type: none;
     padding: 0px;
-} */
+}
 
 /* ul.skills > ul {
     display: flex;
